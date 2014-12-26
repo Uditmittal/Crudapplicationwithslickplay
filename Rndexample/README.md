@@ -55,6 +55,6 @@ $ sbt test
 
 ## Copyright
 
-Copyright (C) 2014 Pavlo Voznenko.
+Copyright (C) 2014 Udit Mittal.
 
-Distributed under the MIT License.
+Distributed under the Crisp Analytics License.
