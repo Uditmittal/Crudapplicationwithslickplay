@@ -1,0 +1,32 @@
+@(coffeeForm: Form[EmployeeEntry],id:Int) 
+
+
+@import helper._
+
+@implicitFieldConstructor = @{ FieldConstructor(twitterBootstrapInput.f) }
+
+@main {
+    <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
+    <h2>Add a Employee</h2>
+    <div>
+    
+    @form(routes.Employeelist.save()){
+     
+        <fieldset >
+        
+            @inputText(coffeeForm("eid"), '_label -> "Employye Id",'_class ->"col-xs-6 col-sm-6 col-md-6")
+            @inputText(coffeeForm("ename"), '_label -> "Employee Name")
+            @inputText(coffeeForm("eadd"), '_label -> "Employee Address")
+            @inputText(coffeeForm("emob"), '_label -> "Employee Mobile")
+         </fieldset><br><br>
+        
+        <div class="actions">
+            <input type="submit" value="Create Employee" class="btn btn-mini btn-primary" > 
+            <a href="@routes.Employeelist.createemp()" class="btn btn-primary">Cancel</a> 
+        </div>
+        
+    }
+    </div>
+    </div>
+    
+}

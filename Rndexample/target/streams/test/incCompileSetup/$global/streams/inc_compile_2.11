@@ -1,0 +1,80 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/crsip/datab/Rndexample/target/scala-2.11/test-classes
+compile options:
+14 items
+00 -> -deprecation
+01 -> -unchecked
+02 -> -encoding
+03 -> utf8
+04 -> -target:jvm-1.7
+05 -> -encoding
+06 -> UTF-8
+07 -> -deprecation
+08 -> -feature
+09 -> -unchecked
+10 -> -Xlint
+11 -> -Ywarn-adapted-args
+12 -> -Ywarn-inaccessible
+13 -> -Ywarn-dead-code
+javac options:
+3 items
+0 -> -encoding
+1 -> utf8
+2 -> -g
+compiler version:
+1 items
+0 -> 2.11.1
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> false
+products:
+0 items
+binary dependencies:
+0 items
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+0 items
+used names:
+0 items
+product stamps:
+0 items
+source stamps:
+0 items
+binary stamps:
+0 items
+class names:
+0 items
+internal apis:
+0 items
+external apis:
+0 items
+source infos:
+0 items
+compilations:
+3 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSS1oq0t1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9ob21lL2Nyc2lwL2RhdGFiL1JuZGV4YW1wbGUvdGFyZ2V0L3NjYWxhLTIuMTEvdGVzdC1jbGFzc2VzdAABLw==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSWVl6np1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9ob21lL2Nyc2lwL2RhdGFiL1JuZGV4YW1wbGUvdGFyZ2V0L3NjYWxhLTIuMTEvdGVzdC1jbGFzc2VzdAABLw==
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSWY364p1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9ob21lL2Nyc2lwL2RhdGFiL1JuZGV4YW1wbGUvdGFyZ2V0L3NjYWxhLTIuMTEvdGVzdC1jbGFzc2VzdAABLw==

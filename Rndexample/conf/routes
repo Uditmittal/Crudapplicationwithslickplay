@@ -1,0 +1,14 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+GET   /                                            controllers.Employeelist.index
+#GET  /jsroutes.js                                 controllers.Report.jsRoutes()
+GET    /Employee                                   controllers.Employeelist.createemp
+POST  /Save                                        controllers.Employeelist.save
+GET  /update/:id                                   controllers.Employeelist.updateEmp(id:Int)
+GET  /Delete/:id                                   controllers.Employeelist.delete(id :Int)
+POST /update/:id                                   controllers.Employeelist.updates(id:Int)
+GET  /test                                         controllers.Employeelist.testapp
+# Map static resources from the /public folder to the /assets URL path 
+GET     /assets/*file               controllers.Assets.at(path="/public", file)

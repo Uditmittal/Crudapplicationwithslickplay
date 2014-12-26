@@ -1,0 +1,42 @@
+@(emplist: List[EmployeeEntry])
+
+@import helper._
+@import java.math.BigInteger ; var i = 0;
+@implicitFieldConstructor = @{ FieldConstructor(twitterBootstrapInput.f) }
+
+@main {
+     <div class="col-xs-12">
+         <div class="col-md-offset-9"><a href="@controllers.routes.Employeelist.createemp" class="btn btn-primary">Create Employee</a></div>
+    </div>
+   <div class="col-xs-12 col-sm-8  col-md-offset-2">
+    
+    <table class="table table-bordered table-striped table-hover">
+    <thead>
+      <tr><th>Employee Id</th>&nbsp;&nbsp; 
+       <th>Employee name</th>&nbsp;&nbsp; 
+       <th>Employee Address</th>&nbsp;&nbsp; 
+       <th>Employee Mobile</th>&nbsp;&nbsp; 
+       <th>Edit</th>&nbsp;&nbsp; 
+       <th>Delete</th>&nbsp;&nbsp; 
+    </tr>
+    </thead>
+    <tbody>
+    
+     @for(e <- emplist){
+          <tr>@(i=i+1)
+            <td>@(i)</td>&nbsp;
+    <td>@e.ename</td>&nbsp;
+    <td>@e.eadd</td>&nbsp;
+    <td>@e.emob</td>&nbsp;
+    <td><a href="@controllers.routes.Employeelist.updateEmp(e.eid)" class="btn btn-primary">Edit</a></td>
+        <td><a href="@controllers.routes.Employeelist.delete(e.eid)" class="btn btn-danger">Delete</a></td>
+        </tr>
+    }
+     </tbody>
+  </table>
+    
+    
+    </div>
+    
+    }
+   
